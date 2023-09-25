@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program":"main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "play","--agents","cnb_agent_v2",//"cnb_agent",//"rule_based_agent","user_agent copy",
+                "rule_based_agent", "rule_based_agent", "rule_based_agent",
+                //"znb_agent","coin_collector_agent","rule_based_agent",
+                "--scenario",
+                "classic",
+                //"coin-heaven",
+                //"loot-crate",
+              // "coin-heaven",
+        //"--train","1",
+            "--n-rounds","200",
+        //  "--no-gui",
+            ]
+        }
+    ]
+}
